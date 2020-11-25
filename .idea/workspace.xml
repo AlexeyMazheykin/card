@@ -41,7 +41,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kamasutra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,6 +65,7 @@
       <workItem from="1606218359177" duration="15000" />
       <workItem from="1606219634696" duration="6439000" />
       <workItem from="1606241758897" duration="3279000" />
+      <workItem from="1606291266959" duration="18076000" />
     </task>
     <servers />
   </component>

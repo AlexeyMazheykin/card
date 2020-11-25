@@ -5,6 +5,8 @@
 * Browsers: last 4 version
 */
 
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
 
 @font-face {
     font-family: 'Roboto';
@@ -103,9 +105,12 @@
     url('../fonts/montserrat-v15-latin_cyrillic-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/montserrat-v15-latin_cyrillic-600.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/montserrat-v15-latin_cyrillic-600.woff') format('woff'), /* Modern Browsers */ url('../fonts/montserrat-v15-latin_cyrillic-600.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/montserrat-v15-latin_cyrillic-600.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
+
+
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 *, *::before, *::after {
@@ -115,7 +120,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
@@ -123,21 +128,7 @@ body {
     color: #102746;
     position: relative;
 }
-.scroll__top {
-    display: none;
-    position: fixed;
-    color: #87878b;
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    background-color: #102746;
-    left: 4%;
-    bottom: 10%;
-    z-index: 999;
-    border: none;
-    line-height: 1.9;
-    background-color: rgba(174, 172, 177, 0.24);
-}
+
 
 ul {
     margin: 0;
@@ -247,7 +238,8 @@ img {
     z-index: 99;
 }
 /*Card section*/
-main {
+#main {
+    
     padding-top: 50px;
     max-width: 1170px;
     margin: 0 auto;
@@ -271,6 +263,7 @@ main {
     grid-template-columns: min-content 3fr 5fr;
     gap: 15px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.63);
+    padding-bottom: 30px;
     margin-bottom: 30px;
 }
 .card__choice-thumb {
@@ -281,14 +274,135 @@ main {
     background-color: white;
     margin-bottom: 10px;
 }
+.card__order_header {
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.63);
+    padding-bottom: 20px;
+}
+.vendor__code {
+    color: #87878b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+p strong {
+    color: #102746;
+}
+.card__title {
+    margin-bottom: 15px;
+}
+.in__stock {
+    color: #87878b; ;
+}
 .card__desc-title {
     font-size: 30px;
     margin-bottom: 30px;
 }
-.vendor__code {
+.card__order_price {
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.63);
+}
+.price__title {
     color: #87878b;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
-.vendor__code strong {
-    color: #102746;
+.price__value {
+    display: flex;
 }
+.user__price {
+    margin-right: 10px;
+}
+.regular__price {
+    color: #87878b;
+    text-decoration: line-through;
+}
+.card__order_quantity p {
+    color: #87878b;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.add__block {
+    display: flex;
+    align-items: stretch;
+    width: 120px;
+    height: 35px;
+    justify-content: space-around;
+    border: 2px solid #87878b;
+    margin-bottom: 20px;
+}
+.add__block span {
+    padding-top: 6%;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.add__block span:nth-last-child(2) {
+    border-left: 2px solid #87878b;
+    border-right: 2px solid #87878b;
+}
+.add__block span:first-child:hover, .add__block span:last-child:hover {
+    background: #28a1dc;
+    color: white;
+}
+.user__action {
+    display: flex;
+    align-items: center;
+}
+.btn_add-to-cart {
+    width: 120px;
+    height: 35px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    background: #28a1dc;
+    transition: opacity .2s;
+    margin-right: 30px;
+}
+.btn_add-to-cart:hover {
+    opacity: .5;
+}
+.heart {
+    height: 20px;
+    width: 20px;
+    transform-origin: center;
+    transform: scale(1);
+    transition: all .5s;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: unset;
+}
+.fa-heart {
+    width: 100% !important;
+    height: 100% !important;
+    stroke:  #28a1dc;
+    stroke-width: 80px;
+    display: inline-block;
+
+}
+.heart path {
+    display: block;
+    fill: #ffffff;
+    transition: all 0.8s;
+}
+.heart:hover path, .heart:active path, .heart:focus path {
+    fill: #28a1dc;
+}
+.heart:active{
+    transform: scale(1.3);
+    outline: none;
+}
+
+
+
+
+
+
+
+
 

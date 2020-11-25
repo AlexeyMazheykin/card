@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4b9d90680f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/card.css">
     <title>Карточка товара</title>
 </head>
@@ -135,7 +136,34 @@
                     <img src="./img/card-pic/mitsubishi.jpg" alt="middd" class="card__image-pic">
                 </div>
                 <div class="card__order">
-                    <p class="vendor__code">Артикул: <strong>123456</strong></p>
+                    <div class="card__order_header">
+                        <p class="vendor__code">Артикул: <strong>123456</strong></p>
+                        <h2 class="card__title">Наружный кондиционер MXZ-2E53VAHZ</h2>
+                        <p class="in__stock">Наличие: <strong>в Наличии</strong></p>
+                    </div>
+                    <div class="card__order_price">
+                        <p class="price__title">Цена</p>
+                        <div class="price__value">
+                            <p class="user__price">$1,700.00</p>
+                            <p class="regular__price">$1,700.00</p>
+                        </div>
+                    </div>
+                    <div class="card__order_quantity">
+                        <p>Количество:</p>
+                        <div class="add__block">
+                            <span class="add__block-item">-</span>
+                            <span class="add__block-item">0</span>
+                            <span class="add__block-item">+</span>
+                        </div>
+                    </div>
+                    <div class="user__action">
+                        <button class="btn_add-to-cart">
+                            В Корзину
+                        </button>
+                        <div class="heart">
+                            <span class="fas fa-heart"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card__desc">
@@ -154,11 +182,7 @@
                     организационной деятельности в значительной степени обуславливает создание направлений
                     прогрессивного развития.
                 </p>
-
             </div>
-            <!--            <h2 class="card__title">
-                            Кондиционер DAIKIN Артикул 12234556
-                        </h2>-->
         </div>
     </div>
 </main>
@@ -168,8 +192,6 @@
     const headerBottom = document.querySelector('.header__bottom');
     const headerTop = document.querySelector('.header__top');
     const main = document.getElementById('main');
-
-
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > headerTop.scrollHeight) {
             headerBottom.classList.add('header__fixed');
