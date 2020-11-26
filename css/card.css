@@ -148,7 +148,7 @@ button {
     font-family: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
@@ -261,7 +261,7 @@ img {
 .card__body {
     display: grid;
     grid-template-columns: min-content 3fr 5fr;
-    gap: 15px;
+    gap: 25px;
     border-bottom: 2px solid rgba(128, 128, 128, 0.63);
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -273,6 +273,9 @@ img {
     align-items: center;
     background-color: white;
     margin-bottom: 10px;
+}
+.card__choice-thumb:focus {
+    outline: 2px solid #28a1dc;
 }
 .card__order_header {
     margin-bottom: 20px;
@@ -292,12 +295,10 @@ p strong {
     font-weight: 400;
 }
 .in__stock {
+    font-size: 14px;
     color: #87878b; ;
 }
-.card__desc-title {
-    font-size: 30px;
-    margin-bottom: 30px;
-}
+
 .card__order_price {
     font-weight: 700;
     padding-bottom: 20px;
@@ -340,7 +341,11 @@ p strong {
     text-align: center;
     cursor: pointer;
 }
-.add__block span:nth-last-child(2) {
+.add__block span:first-child {
+    padding-top: 8px;
+}
+
+.add__block span:nth-child(2) {
     border-left: 2px solid #87878b;
     border-right: 2px solid #87878b;
 }
@@ -399,18 +404,35 @@ p strong {
     outline: none;
 }
 .card__info {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 60px 3fr 5fr;
+    gap: 25px;
 }
 .card__info-desc {
-    flex-basis: 50%;
+    grid-column:  1 / span 2;
+}
+.card__desc-title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
+.card___desc-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.feature__title {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.feature__list {
+    font-size: 14px;
+}
+.feature__item {
+    margin-bottom: 10px;
+}
+.feature__item:last-child {
+    margin: 0;
+}

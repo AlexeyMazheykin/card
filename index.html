@@ -124,34 +124,28 @@
         <div class="card">
             <div class="card__body">
                 <div class="card__choice">
-                    <div class="card__choice-thumb">
-                        <img src="./img/card-pic/mitsubishi.jpg" alt="12345678" class="card__choice-pic">
-                    </div>
-                    <div class="card__choice-thumb">
-                        <img src="./img/card-pic/ec88f83c72347a4d4f034c71d2c80b27.png" alt="12345678"
-                             class="card__choice-pic">
-                    </div>
+                        <!--JavaScript-->
                 </div>
                 <div class="card__image">
                     <img src="./img/card-pic/mitsubishi.jpg" alt="middd" class="card__image-pic">
                 </div>
                 <div class="card__order">
                     <div class="card__order_header">
-                        <p class="vendor__code">Артикул: <strong>123456</strong></p>
+                        <p class="vendor__code">Артикул: <strong id="vendor__code">123456</strong></p>
                         <h2 class="card__title">Наружный кондиционер MXZ-2E53VAHZ</h2>
-                        <p class="in__stock">Наличие: <strong>в Наличии</strong></p>
+                        <p class="in__stock">Наличие: <strong id="in__stock">в Наличии</strong></p>
                     </div>
                     <div class="card__order_price">
                         <p class="price__title">Цена</p>
                         <div class="price__value">
-                            <p class="user__price">$1,700.00</p>
-                            <p class="regular__price">$1,700.00</p>
+                            <p class="user__price">&#8381; <span id="user__price">120,700.00</span></p>
+                            <p class="regular__price">&#8381; <span id="regular__price">140,700.00</span></p>
                         </div>
                     </div>
                     <div class="card__order_quantity">
                         <p>Количество:</p>
                         <div class="add__block">
-                            <span class="add__block-item">-</span>
+                            <span class="add__block-item">&mdash;</span>
                             <span class="add__block-item">0</span>
                             <span class="add__block-item">+</span>
                         </div>
@@ -169,7 +163,7 @@
             <div class="card__info">
                 <div class="card__info-desc">
                     <h3 class="card__desc-title">
-                        Ваш шедевр готов!
+                        Описание
                     </h3>
                     <p class="card___desc-subtitle">
                         Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское
@@ -179,10 +173,16 @@
 
                     </p>
                 </div>
-                <div class="card__info-adv">
-                    <div class="adv__title">
-                        Преимущества птапт
-                    </div>
+                <div class="card__info-feature">
+                    <h4 class="feature__title">
+                        Характеристики:
+                    </h4>
+                    <ul class="feature__list">
+                        <li class="feature__item">&mdash; Низкий уровень шума</li>
+                        <li class="feature__item">&mdash; Производительность 2.5 кВт</li>
+                        <li class="feature__item">&mdash; Звуковая мощность 59 дБ(А)</li>
+                        <li class="feature__item">&mdash; Потребляемая мощность 0.6 кВт/ч</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -205,5 +205,6 @@
     });
 
 </script>
+<script src="./js/state.js"></script>
 </body>
 </html>
