@@ -124,26 +124,40 @@
         <div class="card">
             <div class="card__body">
                 <div class="card__choice">
-                        <!--JavaScript-->
+                    <!--JavaScript-->
                 </div>
                 <div class="card__image">
                     <img src="./img/card-pic/mitsubishi.jpg" alt="middd" class="card__image-pic">
                 </div>
                 <div class="card__order">
                     <div class="card__order_header">
-                        <p class="vendor__code">Артикул: <strong id="vendor__code">123456</strong></p>
-                        <h2 class="card__title">Наружный кондиционер MXZ-2E53VAHZ</h2>
-                        <p class="in__stock">Наличие: <strong id="in__stock">в Наличии</strong></p>
+                        <div class="product__text">
+                            <p class="vendor__code">Артикул: <strong id="vendor__code">123456</strong></p>
+                            <h2 class="card__title">Наружный кондиционер MXZ-2E53VAHZ</h2>
+                            <p class="in__stock">Наличие: <strong id="in__stock">в Наличии</strong></p>
+                        </div>
+                        <a href="https://www.mitsubishi.ru" target="_blank" class="brand__logo">
+                            <img src="./img/Brands/mitsubishi.png" alt="" class="brand__logo-pic">
+                        </a>
                     </div>
                     <div class="card__order_price">
-                        <p class="price__title">Цена</p>
-                        <div class="price__value">
-                            <p class="user__price">&#8381; <span id="user__price">120,700.00</span></p>
-                            <p class="regular__price">&#8381; <span id="regular__price">140,700.00</span></p>
+                        <div class="price__new-person price__item">
+                            <p class="price__title">Цена</p>
+                            <div class="price__value">
+                                <p class="user__price">&#8381; <span id="user__price">120,700.00</span></p>
+                                <p class="regular__price">&#8381; <span id="regular__price">140,700.00</span></p>
+                            </div>
+                        </div>
+                        <div class="price__auth-person price__item">
+                            <p class="price__title">Персональная цена</p>
+                            <div class="price__value">
+                                <p class="user__price">&#8381; <span>120,700.00</span></p>
+                            </div>
                         </div>
                     </div>
                     <div class="card__order_quantity">
-                        <p>Количество:</p>
+                        <p>Количество шт: </p>
+                        <span class="fas fa-equals"></span>
                         <div class="add__block">
                             <span class="add__block-item">&mdash;</span>
                             <span class="add__block-item">0</span>
@@ -152,7 +166,7 @@
                     </div>
                     <div class="user__action">
                         <button class="btn_add-to-cart">
-                            В Корзину
+                            В корзину
                         </button>
                         <div class="heart">
                             <span class="fas fa-heart"></span>
@@ -160,30 +174,52 @@
                     </div>
                 </div>
             </div>
-            <div class="card__info">
-                <div class="card__info-desc">
-                    <h3 class="card__desc-title">
-                        Описание
-                    </h3>
-                    <p class="card___desc-subtitle">
-                        Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское
-                        обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании
-                        дальнейших направлений развития. Не следует, однако забывать, что новая модель организационной
-                        деятельности позволяет выполнять важные задания по разработке направлений прогрессивного развития.
 
-                    </p>
+
+            <div class="tabs">
+                <div class="tabs__nav">
+                    <a class="tabs__link tabs__link_active" href="#content-1">Описание</a>
+                    <a class="tabs__link" href="#content-2">Характеристики</a>
+                    <a class="tabs__link" href="#content-3">С этим товаром покупают</a>
+                    <a class="tabs__link" href="#content-4">Вкладка 4</a>
                 </div>
-                <div class="card__info-feature">
-                    <h4 class="feature__title">
-                        Характеристики:
-                    </h4>
-                    <ul class="feature__list">
-                        <li class="feature__item">&mdash; Низкий уровень шума</li>
-                        <li class="feature__item">&mdash; Производительность 2.5 кВт</li>
-                        <li class="feature__item">&mdash; Звуковая мощность 59 дБ(А)</li>
-                        <li class="feature__item">&mdash; Потребляемая мощность 0.6 кВт/ч</li>
-                    </ul>
+                <div class="tabs__content">
+                    <div class="tabs__pane tabs__pane_show" id="content-1">
+                        <div class="card__info-desc">
+<!--                            <h3 class="card__desc-title">
+                                Описание
+                            </h3>-->
+                            <p class="card___desc-subtitle">
+                                Значимость этих проблем настолько очевидна, что постоянное
+                                информационно-пропагандистское
+                                обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в
+                                формировании
+                                дальнейших направлений развития.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tabs__pane" id="content-2">
+                        <div class="card__info-feature">
+<!--                            <h4 class="feature__title">
+                                Характеристики:
+                            </h4>-->
+                            <ul class="feature__list">
+                                <li class="feature__item">&mdash; Низкий уровень шума</li>
+                                <li class="feature__item">&mdash; Производительность 2.5 кВт</li>
+                                <li class="feature__item">&mdash; Звуковая мощность 59 дБ(А)</li>
+                                <li class="feature__item">&mdash; Потребляемая мощность 0.6 кВт/ч</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tabs__pane" id="content-3">
+                        С этим товаром покупают....
+                    </div>
+                    <div class="tabs__pane" id="content-4">
+                        Содержимое 4...
+                    </div>
                 </div>
+            </div>
+            <div class="card__info">
             </div>
         </div>
     </div>
@@ -203,6 +239,71 @@
             main.style.top = 'auto'
         }
     });
+
+    //TABS
+
+    const $tabs = function (target) {
+        let _elemTabs = document.querySelector(target);
+        /*_elemTabs = (typeof target === 'string' ? document.querySelector(target) : target)*/
+        let _eventTabsShow;
+        let _showTab = function (tabsLinkTarget) {
+            let tabsPaneTarget, tabsLinkActive, tabsPaneShow;
+            tabsPaneTarget = document.querySelector(tabsLinkTarget.getAttribute('href'));
+            tabsLinkActive = tabsLinkTarget.parentElement.querySelector('.tabs__link_active');
+            tabsPaneShow = tabsPaneTarget.parentElement.querySelector('.tabs__pane_show');
+            // если следующая вкладка равна активной, то завершаем работу
+            if (tabsLinkTarget === tabsLinkActive) {
+                return;
+            }
+            // удаляем классы у текущих активных элементов
+            if (tabsLinkActive !== null) {
+                tabsLinkActive.classList.remove('tabs__link_active');
+            }
+            if (tabsPaneShow !== null) {
+                tabsPaneShow.classList.remove('tabs__pane_show');
+            }
+            // добавляем классы к элементам (в завимости от выбранной вкладки)
+            tabsLinkTarget.classList.add('tabs__link_active');
+            tabsPaneTarget.classList.add('tabs__pane_show');
+            document.dispatchEvent(_eventTabsShow);
+        };
+        let _switchTabTo = function (tabsLinkIndex) {
+            let tabsLinks = _elemTabs.querySelectorAll('.tabs__link');
+            if (tabsLinks.length > 0) {
+                if (tabsLinkIndex > tabsLinks.length) {
+                    tabsLinkIndex = tabsLinks.length;
+                } else if (tabsLinkIndex < 1) {
+                    tabsLinkIndex = 1;
+                }
+                _showTab(tabsLinks[tabsLinkIndex - 1]);
+            }
+        };
+
+        _eventTabsShow = new CustomEvent('tab.show', {detail: _elemTabs});
+
+        _elemTabs.addEventListener('click', function (e) {
+            let tabsLinkTarget = e.target;
+            // завершаем выполнение функции, если кликнули не по ссылке
+            if (!tabsLinkTarget.classList.contains('tabs__link')) {
+                return;
+            }
+            // отменяем стандартное действие
+            e.preventDefault();
+            _showTab(tabsLinkTarget);
+        });
+
+        return {
+            showTab: function (target) {
+                _showTab(target);
+            },
+            switchTabTo: function (index) {
+                _switchTabTo(index);
+            }
+        }
+
+    };
+
+    $tabs('.tabs');
 
 </script>
 <script src="./js/state.js"></script>

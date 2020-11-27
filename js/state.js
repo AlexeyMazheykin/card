@@ -46,8 +46,10 @@ state.price.toLocaleString('ru-RU');
 user__price.textContent =
     isUserAuth ?
         `${((state.price - state.price * user.discount / 100).toLocaleString('ru-RU'))}.00`
-             : 'sssss'
-const num = (+state.price.toFixed(2)).toLocaleString('ru-RU');
+             : 'sssss';
+
+
+
 
 
 
