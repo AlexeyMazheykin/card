@@ -22,20 +22,7 @@
     <list default="true" id="5cd3f9b9-427c-4371-9cd4-b78bae07e7a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/boiler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/card-vent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/cond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/dust-remove.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/humidification.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/installation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/laundry-chute.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/project.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/service.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-cards-pic/watering.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/best-card-pic/Mufta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/best-card-pic/button.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dast" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -87,6 +74,10 @@
       <workItem from="1606464852437" duration="9721000" />
       <workItem from="1606480262319" duration="5485000" />
       <workItem from="1606487487664" duration="3000" />
+      <workItem from="1606573564682" duration="353000" />
+      <workItem from="1606576029845" duration="2000" />
+      <workItem from="1606588386471" duration="59000" />
+      <workItem from="1606720441179" duration="19700000" />
     </task>
     <servers />
   </component>
@@ -106,10 +97,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606218371788">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606720620393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1606720620393" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1280.760/0.0.1920.1040@0.0.1920.1040" timestamp="1606218371788" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.287.1280.760/0.0.1920.1040@0.0.1920.1040" timestamp="1606588443306" />
     <state x="433" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606247616251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

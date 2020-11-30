@@ -1,13 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -335,19 +325,48 @@ p strong {
     color: #87878b;
     text-decoration: line-through;
 }
-.card__order_quantity p {
+/*Card order ACTION */
+
+
+.card__order_action {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: repeat(3, max-content);
+    align-items: center;
+    row-gap: 20px;
+}
+.card__order_action > * {
+    grid-column: 1 / span 1;
+}
+.action__svg {
+    display: flex;
+    grid-column: 2 / span 1;
+}
+.action__text {
     color: #87878b;
     font-size: 14px;
-    margin-bottom: 10px;
+}
+.add__block, .action__ad_to_cart-btn  {
+    width: 120px;
+    height: 25px;
+}
+.action__ad_to_cart-btn {
+    width: 120px;
+    height: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    background: #28a1dc;
+    transition: opacity .2s;
+    margin-right: 20px;
 }
 .add__block {
     display: flex;
     align-items: stretch;
-    width: 120px;
-    height: 25px;
     justify-content: space-around;
     border: 1px solid #87878b;
-    margin-bottom: 10px;
 }
 .add__block span {
     padding-top: 2%;
@@ -367,89 +386,24 @@ p strong {
     background: #28a1dc;
     color: white;
 }
-.user__action {
-    display: flex;
-    align-items: center;
-}
-.btn_add-to-cart {
-    width: 120px;
-    height: 25px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 400;
-    background: #28a1dc;
-    transition: opacity .2s;
-    margin-right: 20px;
-}
-.btn_add-to-cart:hover {
-    opacity: .5;
-}
-.heart {
-    height: 16px;
-    width: 16px;
-    transform-origin: center;
-    transform: scale(1);
-    transition: all .5s;
-    cursor: pointer;
-    padding: 0;
-    border: none;
-    background-color: unset;
-    line-height: 1px;
-}
-.fa-heart {
-    width: 100% !important;
-    height: 100% !important;
+.fa-heart, .fa-equals {
     stroke:  #28a1dc;
     stroke-width: 40px;
     display: inline-block;
-
+    margin-right: 20px;
 }
-.heart path {
+.action__svg path {
     display: block;
     fill: #ffffff;
     transition: all 0.8s;
 }
-.heart:hover path, .heart:active path, .heart:focus path {
+.action__svg:hover path, .action__svg:active path, .action__svg:focus path {
     fill: #28a1dc;
 }
-.heart:active {
+.action__svg:active path {
     transform: scale(1.3);
+    transform-origin: center;
     outline: none;
-}
-.card__info {
-    display: grid;
-    grid-template-columns: 60px 3fr 5fr;
-    gap: 25px;
-}
-.card__info-desc {
-    grid-column:  1 / span 2;
-}
-.card__desc-title {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.card___desc-subtitle {
-    font-size: 14px;
-    line-height: 20px;
-    color: rgba(0, 0, 0, 0.56);
-}
-.feature__title {
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-.feature__list {
-    font-size: 14px;
-}
-.feature__item {
-    margin-bottom: 10px;
-}
-.feature__item:last-child {
-    margin: 0;
 }
 
 /*TABS*/

@@ -122,6 +122,8 @@
             </ul>
         </nav>
         <div class="card">
+
+
             <div class="card__body">
                 <div class="card__choice">
                     <!--JavaScript-->
@@ -155,27 +157,27 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card__order_quantity">
-                        <p>Количество шт: </p>
-                        <span class="fas fa-equals"></span>
+                    <div class="card__order_action">
+                        <p class="action__quantity-text action__text">Количество шт: </p>
                         <div class="add__block">
                             <span class="add__block-item">&mdash;</span>
                             <span class="add__block-item">0</span>
                             <span class="add__block-item">+</span>
                         </div>
-                    </div>
-                    <div class="user__action">
-                        <button class="btn_add-to-cart">
+                        <a href="#!" class="action__svg action__equ-lnk">
+                            <span class="fas fa-equals"></span>
+                            <p class="action__text action__equ-text">Добавить в сравнение</p>
+                        </a>
+                        <button class="action__ad_to_cart-btn">
                             В корзину
                         </button>
-                        <div class="heart">
+                        <a href="#!" class="action__add_to_fav-lnk action__svg">
                             <span class="fas fa-heart"></span>
-                        </div>
+                            <p class="action__text action__fav-text">Добавить в избранное</p>
+                        </a>
                     </div>
                 </div>
             </div>
-
-
             <div class="tabs">
                 <div class="tabs__nav">
                     <a class="tabs__link tabs__link_active" href="#content-1">Описание</a>
@@ -186,9 +188,9 @@
                 <div class="tabs__content">
                     <div class="tabs__pane tabs__pane_show" id="content-1">
                         <div class="card__info-desc">
-<!--                            <h3 class="card__desc-title">
-                                Описание
-                            </h3>-->
+                            <!--                            <h3 class="card__desc-title">
+                                                            Описание
+                                                        </h3>-->
                             <p class="card___desc-subtitle">
                                 Значимость этих проблем настолько очевидна, что постоянное
                                 информационно-пропагандистское
@@ -200,9 +202,9 @@
                     </div>
                     <div class="tabs__pane" id="content-2">
                         <div class="card__info-feature">
-<!--                            <h4 class="feature__title">
-                                Характеристики:
-                            </h4>-->
+                            <!--                            <h4 class="feature__title">
+                                                            Характеристики:
+                                                        </h4>-->
                             <ul class="feature__list">
                                 <li class="feature__item">&mdash; Низкий уровень шума</li>
                                 <li class="feature__item">&mdash; Производительность 2.5 кВт</li>
@@ -219,12 +221,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card__info">
-            </div>
         </div>
     </div>
 </main>
-
 <script>
     //HEADER;
     const headerBottom = document.querySelector('.header__bottom');
