@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,11 +78,12 @@
       <workItem from="1606576029845" duration="2000" />
       <workItem from="1606588386471" duration="59000" />
       <workItem from="1606720441179" duration="19700000" />
+      <workItem from="1606765089794" duration="3975000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -97,6 +98,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="540" y="222" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1606770536719">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="540" y="222" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1920.0.1280.800/0.0.1920.1080@0.0.1920.1080" timestamp="1606770536719" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606720620393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
