@@ -464,7 +464,14 @@ p strong {
     display: block;
 }
 
-/*With this*/
+/*WIDTH THIS*/
+.related {
+    padding-top: 30px
+}
+.related__title {
+margin-bottom: 20px;
+    font-weight: 500;
+}
 .best {
     padding: 0 0 30px 0;
     overflow: hidden;
@@ -525,7 +532,6 @@ p strong {
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 24%;
-    /*padding: 30px 30px 0;*/
     transition: all .5s;
     position: relative;
     margin-right: 1%;
@@ -540,6 +546,19 @@ p strong {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    color: #87878b;
+    font-size: 14px;
+}
+.best__desc span:first-child {
+    display: block;
+    margin-bottom: 10px;
+}
+.best__desc span:last-child {
+    display: block;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #102746;
 }
 .best__card-link {
     align-self: center;
