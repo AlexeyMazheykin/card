@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cd3f9b9-427c-4371-9cd4-b78bae07e7a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +54,7 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,12 +84,14 @@
       <workItem from="1606720441179" duration="19700000" />
       <workItem from="1606765089794" duration="3975000" />
       <workItem from="1606806987886" duration="121000" />
-      <workItem from="1606807110779" duration="1808000" />
+      <workItem from="1606807110779" duration="2560000" />
+      <workItem from="1606810837171" duration="11211000" />
+      <workItem from="1606835211678" duration="2013000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -112,9 +116,17 @@
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1280.760@0.0.1920.1040" timestamp="1606807107516" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1280.760/0.0.1920.1040@0.0.1920.1040" timestamp="1606218371788" />
     <state x="740" y="275" key="FileChooserDialogImpl/1920.287.1280.760/0.0.1920.1040@0.0.1920.1040" timestamp="1606588443306" />
+    <state x="469" y="179" key="SettingsEditor" timestamp="1606829883166">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080/1920.0.1280.800@0.0.1920.1080" timestamp="1606829883166" />
     <state x="433" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606247616251">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="433" y="75" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1606247616251" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1606828253044">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/1920.0.1280.800@0.0.1920.1080" timestamp="1606828253044" />
   </component>
 </project>

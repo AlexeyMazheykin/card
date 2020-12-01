@@ -10,7 +10,6 @@
     <title>Карточка товара</title>
 </head>
 <body>
-<div class="container">
     <header class="header">
         <div class="header__top">
             <div class="wrapper">
@@ -94,14 +93,41 @@
             </div>
         </div>
     </header>
-
     <main id="main" class="main">
         <h1>Карточка товара</h1>
         <div class="card__container">
             <nav class="navbar">
                 <ul class="nav__list">
-                    <li class="nav__list-item">
-                        <a href="#!" class="nav__list-item-link">Категория
+                    <li class="dropdown__item-btn">
+                        Автополив <i class="fas fa-caret-down"></i>
+                    </li>
+                    <div class="dropdown__category1 dropdown__container">
+                        <a href="#!" class="category1-link category-link">
+                            Водяные розетки
+                        </a>
+                        <a href="#!" class="category1-link category-link">
+                            Капельные розетки
+                        </a>
+                        <a href="#!" class="category1-link category-link">
+                            Клапана
+                        </a>
+                    </div>
+                    <li class="dropdown__item-btn">
+                        Бельепровод <i class="fas fa-caret-down"></i>
+                    </li>
+                    <div class="dropdown__category2 dropdown__container">
+                        <a href="#!" class="category1-link category-link">
+                            Бельеприемник
+                        </a>
+                        <a href="#!" class="category1-link category-link">
+                            Дверцы
+                        </a>
+                        <a href="#!" class="category1-link category-link">
+                            Принадлежности
+                        </a>
+                    </div>
+                    <!--<li class="nav__list-item">
+                        <a href="#!" class="nav__list-item-link">c
                         </a>
                     </li>
                     <li class="nav__list-item">
@@ -119,7 +145,7 @@
                     <li class="nav__list-item">
                         <a href="#!" class="nav__list-item-link">Категория
                         </a>
-                    </li>
+                    </li>-->
                 </ul>
             </nav>
             <div class="card">
@@ -234,9 +260,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     144 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -261,9 +287,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     300 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -288,9 +314,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     144 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -315,9 +341,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     300 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -342,9 +368,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     144 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -369,9 +395,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     300 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -396,9 +422,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     144 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -423,9 +449,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     300 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -450,9 +476,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     144 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -477,9 +503,9 @@
                         </a>
                         <div class="best__card-footer">
                             <div class="best__price">
-                                <h3 class="best__price-title">
+                                <p class="best__price-title">
                                     300 р.
-                                </h3>
+                                </p>
                                 <p class="available">
                                     в наличии
                                 </p>
@@ -495,15 +521,16 @@
                         </div>
                     </div>
                 </div>
-                <span class="best__btn-prev best__btn" data-trans="25" data-count="-1"><</span>
-                <span class="best__btn-next best__btn" data-trans="-25" data-count="1">></span>
+                <span class="best__btn-prev best__btn" data-trans="21" data-count="-1"><</span>
+                <span class="best__btn-next best__btn" data-trans="-21" data-count="1">></span>
             </div>
         </section>
     </main>
     <footer class="footer">
         это футер
     </footer>
-</div>
+
+<script src="./js/navbar.js"></script>
 <script src="./js/main.js"></script>
 <script src="./js/state.js"></script>
 </body>
